@@ -53,3 +53,6 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# Keep data folder - it contains our image configurations
+!data/

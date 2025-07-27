@@ -11,21 +11,21 @@
       "items": [
         {
           "id": 1,
-          "src": "https://images.unsplash.com/photo-1675789203977-70070dae0799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1hRO-Zfje9MkUdhX37FWvbd2amsaCvwix",
           "alt": "a person standing in front of a rock formation",
           "category": "nature",
           "layout": { "width": "md:w-1/2", "position": 1 }
         },
         {
           "id": 2,
-          "src": "https://images.unsplash.com/photo-1674985594089-eab270e843c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1963&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1g3yquiZah4q52n89L46f8se4_iu4hNoc",
           "alt": "a cat laying on top of a sidewalk next to the ocean",
           "category": "street",
           "layout": { "width": "md:w-1/2", "position": 2 }
         },
         {
           "id": 3,
-          "src": "https://images.unsplash.com/photo-1667093060577-02f07eb01585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1JRYCQhm_WaK-2zUs6neAkzzi8lTOOkZZ",
           "alt": "a man standing on a beach next to the ocean",
           "category": "portrait",
           "layout": { "width": "w-full", "position": 3 }
@@ -38,39 +38,32 @@
       "width": "md:w-1/2",
       "items": [
         {
-          "id": 4,
-          "src": "https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-          "alt": "a snow covered mountain with trees on the side",
-          "category": "landscape",
-          "layout": { "width": "w-full", "position": 1 }
-        },
-        {
           "id": 5,
-          "src": "https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1e3Ddhp4CZlMxw7rmXf-X_lm6_p-MwsOQ",
           "alt": "a branch of a plant floating in a body of water",
           "category": "nature",
-          "layout": { "width": "md:w-1/2", "position": 2 }
+          "layout": { "width": "md:w-1/2", "position": 1 }
         },
         {
           "id": 6,
-          "src": "https://images.unsplash.com/photo-1675971074488-351394caf6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1B3njbcTtGReYEV4VpLAWGQHvDeAEGEyJ",
           "alt": "a blue sky with a lot of red and orange clouds",
+          "category": "landscape",
+          "layout": { "width": "md:w-1/2", "position": 2 }
+        },
+        {
+          "id": 7,
+          "src": "https://lh3.googleusercontent.com/d/1VYo_If9AAMW2XQoaYrvosM0K__tOwPUN",
+          "alt": "a view of the ocean from the top of a hill",
           "category": "landscape",
           "layout": { "width": "md:w-1/2", "position": 3 }
         },
         {
-          "id": 7,
-          "src": "https://images.unsplash.com/photo-1655908932015-7650b401e2f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-          "alt": "a view of the ocean from the top of a hill",
-          "category": "landscape",
-          "layout": { "width": "md:w-1/2", "position": 4 }
-        },
-        {
           "id": 8,
-          "src": "https://images.unsplash.com/photo-1675189729507-b90d7cb6c592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1N_cs2AZdEIJxaWoqKQZeef4f7URn5osX",
           "alt": "a pheasant flying in the sky with its wings spread",
           "category": "wildlife",
-          "layout": { "width": "md:w-1/2", "position": 5 }
+          "layout": { "width": "md:w-1/2", "position": 4 }
         }
       ]
     },
@@ -81,24 +74,24 @@
       "items": [
         {
           "id": 9,
-          "src": "https://images.unsplash.com/photo-1654018869756-d08407972836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1wl5yDdoC1UHQNdsR_dLAtoDKHaufL-zL",
           "alt": "a statue of a man next to a statue of a woman",
           "category": "architecture",
           "layout": { "width": "w-full", "position": 1 }
         },
         {
           "id": 10,
-          "src": "https://images.unsplash.com/photo-1677075610184-57d21d023e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1lm_Q8VrigHO24snA7F43oTSSUHeJ4VSx",
           "alt": "a city street with tall buildings in the background",
           "category": "urban",
-          "layout": { "width": "md:w-1/2", "position": 2 }
+          "layout": { "width": "w-full", "position": 2 }
         },
         {
           "id": 11,
-          "src": "https://images.unsplash.com/photo-1558102400-72da9fdbecae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1V2a0YHzshN-7JDeU5JPIh93vG4El9sGn",
           "alt": "25 de abril bridge spanning over Tagus river",
           "category": "architecture",
-          "layout": { "width": "md:w-1/2", "position": 3 }
+          "layout": { "width": "w-full", "position": 3 }
         }
       ]
     },
@@ -109,19 +102,45 @@
       "items": [
         {
           "id": 12,
-          "src": "https://images.unsplash.com/photo-1510673825466-302bc330ab95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80",
+          "src": "https://lh3.googleusercontent.com/d/1MBzlPuRkBkM1p7SzhZXzYOPN0AN2iIof",
           "alt": "a lot of lanterns floating in the air at night",
           "category": "event",
-          "layout": { "width": "w-full", "position": 1 }
+          "layout": { "width": "md:w-1/2", "position": 1 }
         },
         {
           "id": 13,
-          "type": "video",
-          "videoId": "E4fh7eBK4qE",
-          "src": "https://img.youtube.com/vi/E4fh7eBK4qE/maxresdefault.jpg",
+          "src": "https://lh3.googleusercontent.com/d/1rNIXguf-YhrzSiRmAFhzavnlpr01t3p_",
           "alt": "Photography Tutorial - Behind the Scenes Video",
           "category": "tutorial",
-          "layout": { "width": "w-full", "position": 2 }
+          "layout": { "width": "md:w-1/2", "position": 2 }
+        },
+        {
+          "id": 14,
+          "src": "https://lh3.googleusercontent.com/d/1VlSrirYNEOcnnKs6QtS72GZEiY78nifx",
+          "alt": "Beautiful landscape photography",
+          "category": "landscape",
+          "layout": { "width": "md:w-1/2", "position": 3 }
+        },
+        {
+          "id": 15,
+          "src": "https://lh3.googleusercontent.com/d/1TC5iG4T9wONmfEJsarRzNpOhtEt8EtXw",
+          "alt": "Stunning nature capture",
+          "category": "nature",
+          "layout": { "width": "md:w-1/2", "position": 4 }
+        },
+        {
+          "id": 16,
+          "src": "https://lh3.googleusercontent.com/d/1iRwKN-EGIJv9J3-bWz5UswXWpGAevuw4",
+          "alt": "Creative photography composition",
+          "category": "creative",
+          "layout": { "width": "md:w-1/2", "position": 5 }
+        },
+        {
+          "id": 17,
+          "src": "https://lh3.googleusercontent.com/d/142j0baq_QZHiYBcuKTEwvHZjHVXxFX5O",
+          "alt": "Artistic visual storytelling",
+          "category": "artistic",
+          "layout": { "width": "md:w-1/2", "position": 6 }
         }
       ]
     }

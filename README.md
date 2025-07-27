@@ -134,7 +134,7 @@ photography-portfolio/
 ## 👨‍💻 Credits
 
 **Original Author:** [João Franco](https://www.linkedin.com/in/joão-franco-452161195/)  
-**Customized by:** Fatemeh Khanzadeh
+**Customized by:** [Ali Pourganjalikhan](https://www.linkedin.com/in/alipga/)
 
 ---
 

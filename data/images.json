@@ -83,6 +83,15 @@
       "alt": "a lot of lanterns floating in the air at night",
       "category": "event",
       "size": "half"
+    },
+    {
+      "id": 13,
+      "type": "video",
+      "videoId": "E4fh7eBK4qE",
+      "src": "https://img.youtube.com/vi/E4fh7eBK4qE/maxresdefault.jpg",
+      "alt": "Photography Tutorial - Behind the Scenes Video",
+      "category": "tutorial",
+      "size": "full"
     }
   ]
 }

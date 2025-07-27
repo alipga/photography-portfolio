@@ -19,33 +19,62 @@ class ImageGallery {
     }
   }
 
-  // Create image element with proper classes and structure
-  createImageElement(image) {
-    const sizeClass = image.size === 'full' ? 'w-full' : 'w-full md:w-1/2';
+  // Create image or video element with proper classes and structure
+  createImageElement(item) {
+    const sizeClass = item.size === 'full' ? 'w-full' : 'w-full md:w-1/2';
     
-    return `
-      <div class="${sizeClass} p-1">
-        <div class="overflow-hidden h-full w-full">
-          <a href="${image.src}" data-fancybox="gallery" data-category="${image.category}">
-            <img alt="${image.alt}"
-                 class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                 src="${image.src}"
-                 loading="lazy" />
-          </a>
+    if (item.type === 'video') {
+      // Create video thumbnail with play button overlay
+      return `
+        <div class="${sizeClass} p-1">
+          <div class="overflow-hidden h-full w-full relative group">
+            <a href="https://www.youtube.com/watch?v=${item.videoId}" data-fancybox="gallery" data-category="${item.category}">
+              <img alt="${item.alt}"
+                   class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                   src="${item.src}"
+                   loading="lazy" />
+              <!-- Video play button overlay -->
+              <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-all duration-300">
+                <div class="bg-white bg-opacity-90 rounded-full p-4 transform group-hover:scale-110 transition-transform duration-300">
+                  <svg class="w-8 h-8 text-gray-800 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              <!-- Video badge -->
+              <div class="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded">
+                VIDEO
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-    `;
+      `;
+    } else {
+      // Regular image
+      return `
+        <div class="${sizeClass} p-1">
+          <div class="overflow-hidden h-full w-full">
+            <a href="${item.src}" data-fancybox="gallery" data-category="${item.category}">
+              <img alt="${item.alt}"
+                   class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                   src="${item.src}"
+                   loading="lazy" />
+            </a>
+          </div>
+        </div>
+      `;
+    }
   }
 
-  // Render all images to the container
+  // Render all items (images and videos) to the container
   render() {
     if (!this.container) {
       console.error('Gallery container not found');
       return;
     }
 
-    const imageHTML = this.images.map(image => this.createImageElement(image)).join('');
-    this.container.innerHTML = imageHTML;
+    const itemHTML = this.images.map(item => this.createImageElement(item)).join('');
+    this.container.innerHTML = itemHTML;
 
     // Trigger fade-in animation
     setTimeout(() => {
@@ -56,19 +85,19 @@ class ImageGallery {
     }, 100);
   }
 
-  // Filter images by category
+  // Filter items by category
   filterByCategory(category) {
-    const filteredImages = category === 'all' 
+    const filteredItems = category === 'all' 
       ? this.images 
-      : this.images.filter(image => image.category === category);
+      : this.images.filter(item => item.category === category);
     
-    const imageHTML = filteredImages.map(image => this.createImageElement(image)).join('');
-    this.container.innerHTML = imageHTML;
+    const itemHTML = filteredItems.map(item => this.createImageElement(item)).join('');
+    this.container.innerHTML = itemHTML;
   }
 
   // Get all unique categories
   getCategories() {
-    const categories = [...new Set(this.images.map(image => image.category))];
+    const categories = [...new Set(this.images.map(item => item.category))];
     return ['all', ...categories];
   }
 

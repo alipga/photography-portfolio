@@ -122,6 +122,39 @@ photography-portfolio/
    - Drag and drop the entire project folder to [Netlify](https://netlify.com)
    - Or connect your GitHub repository for automatic deployments
 
+## 📧 Contact Form Setup
+
+The contact form uses **Netlify Forms** for reliable form handling:
+
+### How It Works
+- Form submissions are automatically captured by Netlify
+- No server-side code required
+- Submissions appear in your Netlify dashboard under **Forms**
+- Email notifications can be configured
+- Built-in spam protection
+
+### Requirements
+1. **Enable form detection** in your Netlify site settings:
+   - Go to Site Settings → Forms → Enable form detection
+2. **Deploy your site** - Netlify scans for forms during build
+3. **Form structure** must include:
+   - `name="contact"` attribute on the form
+   - `method="POST"` 
+   - `data-netlify="true"` attribute
+   - All inputs must have `name` attributes
+
+### Accessing Submissions
+- Login to your Netlify dashboard
+- Go to your site → Forms tab
+- View all form submissions with timestamps
+- Set up email notifications for new submissions
+
+### Alternative Solutions
+If not using Netlify, consider:
+1. **Formspree** - Easy form backend service
+2. **EmailJS** - Client-side email sending  
+3. **Custom backend** - Node.js/PHP server with email API
+
 ## 🛠️ Built With
 
 - **HTML5** - Semantic markup
